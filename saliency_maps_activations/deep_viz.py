@@ -54,7 +54,7 @@ def load_image(file_path):
 model = VGG19(weights='imagenet')
 model.compile(loss='mean_squared_error', optimizer='adam')
 
-img = image.load_img('../images/artist_3.jpg', target_size=(224, 224))
+img = image.load_img('../figures/artist_3.jpg', target_size=(224, 224))
 img = np.asarray(img)
 
 show_image(img, grayscale=False)
