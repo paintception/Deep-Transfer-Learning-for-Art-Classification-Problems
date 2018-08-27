@@ -135,20 +135,6 @@ class ResNet(object):
 		if not os.path.exists(self.model_path):
 			os.makedirs(self.model_path)
 
-	def shape_data(self, images):
-
-		tmp_reshaped_images = list()
-
-		for image in images:
-			resized_image = cv2.resize(image, (self.width, self.height)) 
-			tmp_reshaped_images.append(resized_image)
-
-		reshaped_images = np.asarray(tmp_reshaped_images)
-
-		X = np.reshape(reshaped_images, (reshaped_images.shape[0], self.width, self.height, self.channels))
-		
-		return X
-
 	def setup_transfer_learning_model(self, base_model):	
 	
 	        if self.tl_mode == "off_the_shelf":
