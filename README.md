@@ -1,4 +1,4 @@
-# Deep-Transfer-Learning-for-Art-Classification-Problems
+# Deep Transfer Learning for Art Classification Problems
 
 We hereby release the code and models of the paper "Deep Transfer Learning for Art Classification Problems", which will be presented at the ECCV VisArt Workshop on Computer Vision for Art Analysis (September 2018, Munich GE).
 
