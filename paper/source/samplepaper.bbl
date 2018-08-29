@@ -1,0 +1,171 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\providecommand{\doi}[1]{https://doi.org/#1}
+
+\bibitem{abadi2016tensorflow}
+Abadi, M., Barham, P., Chen, J., Chen, Z., Davis, A., Dean, J., Devin, M.,
+  Ghemawat, S., Irving, G., Isard, M., et~al.: Tensorflow: A system for
+  large-scale machine learning. In: OSDI. vol.~16, pp. 265--283 (2016)
+
+\bibitem{ackermann2018using}
+Ackermann, S., Schawinksi, K., Zhang, C., Weigel, A.K., Turp, M.D.: Using
+  transfer learning to detect galaxy mergers. Monthly Notices of the Royal
+  Astronomical Society  (2018)
+
+\bibitem{allen2000collaboration}
+Allen, N.: Collaboration through the colorado digitization project. First
+  Monday  \textbf{5}(6) (2000)
+
+\bibitem{bidoiadeep}
+Bidoia, F., Sabatelli, M., Shantia, A., Wiering, M.A., Schomaker, L.: A deep
+  convolutional neural network for location recognition and geometry based
+  information. In: Proceedings of the 7th International Conference on Pattern
+  Recognition Applications and Methods, {ICPRAM} 2018, Funchal, Madeira -
+  Portugal, January 16-18, 2018. pp. 27--36 (2018)
+
+\bibitem{bojarski2016visualbackprop}
+Bojarski, M., Choromanska, A., Choromanski, K., Firner, B., Jackel, L., Muller,
+  U., Zieba, K.: Visualbackprop: efficient visualization of cnns. arXiv
+  preprint arXiv:1611.05418  (2016)
+
+\bibitem{caruana2001overfitting}
+Caruana, R., Lawrence, S., Giles, C.L.: Overfitting in neural nets:
+  Backpropagation, conjugate gradient, and early stopping. In: Advances in
+  neural information processing systems. pp. 402--408 (2001)
+
+\bibitem{chollet2016xception}
+Chollet, F.: Xception: Deep learning with depthwise separable convolutions.
+  arXiv preprint  (2016)
+
+\bibitem{chollet2015keras}
+Chollet, F., et~al.: Keras (2015)
+
+\bibitem{deng2009imagenet}
+Deng, J., Dong, W., Socher, R., Li, L.J., Li, K., Fei-Fei, L.: Imagenet: A
+  large-scale hierarchical image database. In: Computer Vision and Pattern
+  Recognition, 2009. CVPR 2009. IEEE Conference on. pp. 248--255. IEEE (2009)
+
+\bibitem{donahue2014decaf}
+Donahue, J., Jia, Y., Vinyals, O., Hoffman, J., Zhang, N., Tzeng, E., Darrell,
+  T.: Decaf: A deep convolutional activation feature for generic visual
+  recognition. In: International conference on machine learning. pp. 647--655
+  (2014)
+
+\bibitem{stamatatos:2009}
+Efstathios, S.: A survey of modern authorship attribution methods. Journal of
+  the American Society for Information Science and Technology (3),  538--556
+  (2009). \doi{10.1002/asi.21001}
+
+\bibitem{he2015delving}
+He, K., Zhang, X., Ren, S., Sun, J.: Delving deep into rectifiers: Surpassing
+  human-level performance on imagenet classification. In: Proceedings of the
+  IEEE international conference on computer vision. pp. 1026--1034 (2015)
+
+\bibitem{he2016deep}
+He, K., Zhang, X., Ren, S., Sun, J.: Deep residual learning for image
+  recognition. In: Proceedings of the IEEE conference on computer vision and
+  pattern recognition. pp. 770--778 (2016)
+
+\bibitem{huang2017densely}
+Huang, G., Liu, Z., Weinberger, K.Q., van~der Maaten, L.: Densely connected
+  convolutional networks. In: Proceedings of the IEEE conference on computer
+  vision and pattern recognition. vol.~1 (2017)
+
+\bibitem{huang2007labeled}
+Huang, G.B., Ramesh, M., Berg, T., Learned-Miller, E.: Labeled faces in the
+  wild: A database for studying face recognition in unconstrained environments.
+  Tech. rep., Technical Report 07-49, University of Massachusetts, Amherst
+  (2007)
+
+\bibitem{kornblith2018better}
+Kornblith, S., Shlens, J., Le, Q.V.: Do better imagenet models transfer better?
+  arXiv preprint arXiv:1805.08974  (2018)
+
+\bibitem{krizhevsky2012imagenet}
+Krizhevsky, A., Sutskever, I., Hinton, G.E.: Imagenet classification with deep
+  convolutional neural networks. In: Advances in neural information processing
+  systems. pp. 1097--1105 (2012)
+
+\bibitem{ma2015multimodal}
+Ma, L., Lu, Z., Shang, L., Li, H.: Multimodal convolutional neural networks for
+  matching image and sentence. In: Proceedings of the IEEE international
+  conference on computer vision. pp. 2623--2631 (2015)
+
+\bibitem{masters2018revisiting}
+Masters, D., Luschi, C.: Revisiting small batch training for deep neural
+  networks. arXiv preprint arXiv:1804.07612  (2018)
+
+\bibitem{mensink2014rijksmuseum}
+Mensink, T., Van~Gemert, J.: The rijksmuseum challenge: Museum-centered visual
+  recognition. In: Proceedings of International Conference on Multimedia
+  Retrieval. p.~451. ACM (2014)
+
+\bibitem{pan2010survey}
+Pan, S.J., Yang, Q.: A survey on transfer learning. IEEE Transactions on
+  knowledge and data engineering pp. 1345--1359 (2010)
+
+\bibitem{parry2005digital}
+Parry, R.: Digital heritage and the rise of theory in museum computing. Museum
+  management and Curatorship pp. 333--348 (2005)
+
+\bibitem{razavian2014cnn}
+Razavian, A.S., Azizpour, H., Sullivan, J., Carlsson, S.: Cnn features
+  off-the-shelf: an astounding baseline for recognition. In: Computer Vision
+  and Pattern Recognition Workshops (CVPRW), 2014 IEEE Conference on. pp.
+  512--519. IEEE (2014)
+
+\bibitem{reyes2015fine}
+Reyes, A.K., Caicedo, J.C., Camargo, J.E.: Fine-tuning deep convolutional
+  networks for plant recognition. In: CLEF (Working Notes) (2015)
+
+\bibitem{simonyan2014very}
+Simonyan, K., Zisserman, A.: Very deep convolutional networks for large-scale
+  image recognition. arXiv preprint arXiv:1409.1556  (2014)
+
+\bibitem{stallkamp2011german}
+Stallkamp, J., Schlipsing, M., Salmen, J., Igel, C.: The german traffic sign
+  recognition benchmark: a multi-class classification competition. In: Neural
+  Networks (IJCNN), The 2011 International Joint Conference on. pp. 1453--1460.
+  IEEE (2011)
+
+\bibitem{szegedy2016rethinking}
+Szegedy, C., Vanhoucke, V., Ioffe, S., Shlens, J., Wojna, Z.: Rethinking the
+  inception architecture for computer vision. In: Proceedings of the IEEE
+  Conference on Computer Vision and Pattern Recognition. pp. 2818--2826 (2016)
+
+\bibitem{tajbakhsh2016convolutional}
+Tajbakhsh, N., Shin, J.Y., Gurudu, S.R., Hurst, R.T., Kendall, C.B., Gotway,
+  M.B., Liang, J.: Convolutional neural networks for medical image analysis:
+  Full training or fine tuning? IEEE transactions on medical imaging pp.
+  1299--1312 (2016)
+
+\bibitem{tieleman2012lecture}
+Tieleman, T., Hinton, G.: Lecture 6.5-rmsprop: Divide the gradient by a running
+  average of its recent magnitude. COURSERA: Neural networks for machine
+  learning pp. 26--31 (2012)
+
+\bibitem{tome2016deep}
+Tom{\`e}, D., Monti, F., Baroffio, L., Bondi, L., Tagliasacchi, M., Tubaro, S.:
+  Deep convolutional neural networks for pedestrian detection. Signal
+  Processing: Image Communication pp. 482--489 (2016)
+
+\bibitem{weibel1998dublin}
+Weibel, S., Kunze, J., Lagoze, C., Wolf, M.: Dublin core metadata for resource
+  discovery. Tech. rep. (1998)
+
+\bibitem{van2015deep}
+van~de Wolfshaar, J., Karaaba, M.F., Wiering, M.A.: Deep convolutional neural
+  networks and support vector machines for gender recognition. In:
+  Computational Intelligence, 2015 IEEE Symposium Series on. pp. 188--195. IEEE
+  (2015)
+
+\bibitem{wollheim:1972}
+Wollheim, R.: {O}n Art and the Mind. {E}ssays and Lectures. Allen Lane (1972)
+
+\bibitem{xie2017aggregated}
+Xie, S., Girshick, R., Doll{\'a}r, P., Tu, Z., He, K.: Aggregated residual
+  transformations for deep neural networks. In: Computer Vision and Pattern
+  Recognition (CVPR), 2017 IEEE Conference on. pp. 5987--5995. IEEE (2017)
+
+\end{thebibliography}

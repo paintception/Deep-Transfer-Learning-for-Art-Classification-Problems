@@ -1,0 +1,53 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: W53P07.aux
+The style file: splncs04.bst
+Database file #1: mybibliography.bib.bib
+A bad cross reference---entry "bidoiadeep"
+refers to entry "DBLP:conf/icpram/2018", which doesn't exist
+Warning--I didn't find a database entry for "DBLP:conf/icpram/2018"
+Warning--there's a number but no volume in stamatatos:2009
+Warning--can't use both volume and number fields in huang2017densely
+Warning--missing institution in weibel1998dublin
+You've used 34 entries,
+            2850 wiz_defined-function locations,
+            768 strings with 11154 characters,
+and the built_in function-call counts, 20427 in all, are:
+= -- 1713
+> -- 708
+< -- 24
++ -- 295
+- -- 256
+* -- 1227
+:= -- 2631
+add.period$ -- 56
+call.type$ -- 34
+change.case$ -- 263
+chr.to.int$ -- 0
+cite$ -- 37
+duplicate$ -- 1773
+empty$ -- 1795
+format.name$ -- 285
+if$ -- 4479
+int.to.chr$ -- 0
+int.to.str$ -- 34
+missing$ -- 358
+newline$ -- 108
+num.names$ -- 68
+pop$ -- 763
+preamble$ -- 1
+purify$ -- 194
+quote$ -- 0
+skip$ -- 570
+stack$ -- 0
+substring$ -- 1137
+swap$ -- 917
+text.length$ -- 24
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 134
+warning$ -- 3
+while$ -- 162
+width$ -- 36
+write$ -- 342
+(There was 1 error message)
