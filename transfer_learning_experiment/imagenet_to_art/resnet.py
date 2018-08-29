@@ -60,7 +60,6 @@ class ResNet(object):
 		self.challenge = challenge
 
 	def load_images(self, name, split):
-
 		f = h5py.File(self.hdf5_path + name, 'r')
 		images = list(f[split])
 
@@ -73,7 +72,6 @@ class ResNet(object):
 		return(labels)
 
 	def my_generator(self, mode):
-		
 		if mode == "__train":
 			X_ = self.X_train
 			y_ = self.y_train
@@ -136,7 +134,6 @@ class ResNet(object):
 			os.makedirs(self.model_path)
 
 	def setup_transfer_learning_model(self, base_model):	
-	
 	        if self.tl_mode == "off_the_shelf":
 		    for layer in base_model.layers[:-2]:
 			layer.trainable = False
@@ -151,7 +148,6 @@ class ResNet(object):
 		        base_model.compile(optimizer = self.optimizer, loss=self.loss, metrics=["accuracy"])
                     
 	def add_layer(self, base_model):
-
 		tmp_output = base_model.output
 		tmp_output = GlobalAveragePooling2D()(tmp_output)
 		predictions = Dense(self.nb_classes, activation = "softmax")(tmp_output)
