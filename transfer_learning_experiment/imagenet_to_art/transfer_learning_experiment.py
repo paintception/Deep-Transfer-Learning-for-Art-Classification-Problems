@@ -50,7 +50,6 @@ class ExperimentHandler(object):
 		return(images)
 
 	def extract_labels(self, metadata):
-
 		total_labels = list()
 
 		for challenge in CHALLENGES:
@@ -60,7 +59,6 @@ class ExperimentHandler(object):
 		return(total_labels)
 
 	def filter_images_and_labels(self, images, labels):		
-			
 		to_remove = list()
 
 		for idx, (image, label) in enumerate(zip(images, labels[0])):
@@ -73,12 +71,10 @@ class ExperimentHandler(object):
 		return(images, labels)
 
 	def one_hot_encoding(self, total_labels):
-
 		one_hot_encodings = list()
 		encoder = LabelEncoder()
 
 		for label in total_labels:
-
 			self.n_labels = len(Counter(label).keys())
 
 			encoder.fit(label)
@@ -91,7 +87,6 @@ class ExperimentHandler(object):
 		return(one_hot_encodings)
 
 	def store_images_to_hdf5(self, path, images, split):
-
 		f = h5py.File(path)
 		dt = h5py.special_dtype(vlen=np.dtype('uint8'))
 		dset = f.create_dataset(split, (len(images), ), dtype=dt)
@@ -109,9 +104,7 @@ class ExperimentHandler(object):
 		dset = f.create_dataset(split, data=encodings)	
 
 	def make_data_splits(self, images, one_hot_encodings):
-		
 		for challenge in CHALLENGES:
-
 			if not os.path.exists(self.dataset_storing_path+challenge+"/"): 
 				os.makedirs(self.dataset_storing_path+challenge+"/")	
 
@@ -148,7 +141,6 @@ class ExperimentHandler(object):
 				self.hdf5_path = os.path.dirname(self.dataset_storing_path+challenge+"/")
 
 	def run_neural_architecture(self):
-
 		if experiment.neural_network == "ResNet":
 			ResNet_net = ResNet(self.hdf5_path, self.results_storing_path, self.n_labels, CHALLENGES[0], self.tl_mode)
 			ResNet_net.train()
