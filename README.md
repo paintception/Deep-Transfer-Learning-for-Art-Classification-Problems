@@ -16,6 +16,8 @@ The contributions of our work can be replicated as follows:
   
   ![alt tag](https://user-images.githubusercontent.com/14283557/44716330-4ac71480-aaba-11e8-8e08-49bb7153493e.jpg)
   
+  * You can download the images of the Rijksmuseum from [here](https://staff.fnwi.uva.nl/t.e.j.mensink/uva12/rijks/) while you can contact me directly for the ones of the Antwerp dataset. I will also be happy to share the splits with you!
+  
   Lastly you can find a version of the ECCV paper in `./paper`.
   
  **Do not hesitate to submit any issues and contact me if you are open for collaborations in the field of Deep Leaning applied to Art**
