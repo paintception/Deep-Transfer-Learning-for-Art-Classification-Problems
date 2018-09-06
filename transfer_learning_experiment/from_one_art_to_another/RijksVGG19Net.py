@@ -37,9 +37,9 @@ class RijksVGG19Net(object):
 		self.height = 224
 		self.channels = 3
 
-		self.train_batch_size = 1
-		self.val_batch_size = 1
-		self.test_batch_size = 1
+		self.train_batch_size = 32
+		self.val_batch_size = 32
+		self.test_batch_size = 32
 
 		self.epochs = 100
 		
